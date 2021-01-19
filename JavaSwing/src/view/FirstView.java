@@ -9,8 +9,6 @@ import javax.swing.border.TitledBorder;
 public class FirstView extends JFrame {
 
 
-	
-
 	ImageIcon imgageEVN = new ImageIcon("D:\\evn.png");
 	JLabel lbTitleJLabel= new JLabel("Hệ thống thanh toán tiền điện");
 	JPanel pnPage1= new JPanel();
@@ -50,6 +48,7 @@ public class FirstView extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				new KhachHangView();
+				
 				
 			}
 		});
